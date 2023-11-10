@@ -1,0 +1,499 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head>
+
+
+  <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-2">
+  <title>IUS - Zadání domácí úlohy - ER diagram</title>
+  <!-- begin include -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!-- <link rel="stylesheet" href="/common/style/opensans.css" type="text/css"> -->
+<link rel="stylesheet" href="zadani_files/style.css" type="text/css">
+<!--[if lte IE 6]>
+   <link rel="stylesheet" type="text/css" href="/common/style/ie.css">
+<![endif]-->
+<link rel="stylesheet" href="zadani_files/print.css" type="text/css" media="print">
+<!--[if lt IE 9]>
+<script src="/common/js/respond.min.js"></script>
+<![endif]-->
+<meta name="googlebot" content="noarchive">
+<!-- end -->
+<link href="data:text/css,%3Ais(%5Bid*%3D'google_ads_iframe'%5D%2C%5Bid*%3D'taboola-'%5D%2C.taboolaHeight%2C.taboola-placeholder%2C%23credential_picker_container%2C%23credentials-picker-container%2C%23credential_picker_iframe%2C%5Bid*%3D'google-one-tap-iframe'%5D%2C%23google-one-tap-popup-container%2C.google-one-tap-modal-div%2C%23amp_floatingAdDiv%2C%23ez-content-blocker-container%2C%23notify-adblock)%20%7Bdisplay%3Anone!important%3Bmin-height%3A0!important%3Bheight%3A0!important%3B%7D" rel="stylesheet" type="text/css"></head><body>
+<!-- begin include -->
+<div id="page" class="deep lowhead crumb nosearch en">
+<div class="container">
+<!--noindex-->
+<div id="header">
+<div class="left"></div>
+<div class="main">
+<a href="https://www.fit.vut.cz/.en"><img src="zadani_files/fitnewz.png" alt="Logo FIT" width="96" height="39"><span>Faculty of Information Technology</span></a>
+</div>
+<div class="right"></div>
+</div>
+<div id="toolbox">
+<p>
+<!-- begin if -->
+<!-- end -->
+  <!-- begin if -->
+<!-- end -->
+<!-- begin set -->
+<!-- end -->
+<!-- begin else -->
+<!-- end -->
+  <!-- begin set -->
+<!-- end -->
+  <!-- begin endif -->
+<!-- end -->
+<!-- begin elif -->
+<!-- end -->
+<!-- begin if -->
+<!-- end -->
+<!-- begin set -->
+<!-- end -->
+<!-- begin else -->
+<!-- end -->
+<!-- begin set -->
+<!-- end -->
+<!-- begin endif -->
+<!-- end -->
+<!-- begin else -->
+<!-- end -->
+<!-- begin set -->
+<!-- end -->
+<!-- begin if -->
+<!-- end -->
+<!-- begin set -->
+<!-- end -->
+<!-- begin else -->
+<!-- end -->
+<!-- begin set -->
+<!-- end -->
+<!-- begin endif -->
+<!-- end -->
+<!-- begin endif -->
+<!-- end -->
+<!-- begin echo -->
+<a class="lang" title="Česká verze" href="https://www.fit.vutbr.cz/study/courses/IUS/public/du.html.cs"><!-- end --><span>Česká verze</span></a>
+<a class="hidden" href="#contentbox">Skip main menu</a>
+<a class="hidden" href="#content">Skip to body</a>
+</p>
+<!--
+<form class="nopad" action="/search.php" method="get">
+<p>
+<label for="search">Search:</label>
+<input id="search" size=20 type="text" name="q">
+<input type="hidden" name="form" value="extended">
+<input type="hidden" name="sp" value="1">
+<input type="hidden" name="lang" value="en">
+<input class="submit" type="image" src="/common/style/images/search.png" alt="Search">
+</p>
+</form>
+-->
+</div>
+<div id="menuline">
+<div class="left"></div>
+<div class="main">
+<h1 class="hidden">You are in section</h1>
+<ul><li><a href="https://www.fit.vutbr.cz/">Faculty</a></li>
+<!-- begin if -->
+<!-- end -->
+<!-- begin set -->
+<!-- end -->
+<!-- begin else -->
+<!-- end -->
+<!-- begin set -->
+<!-- end -->
+<!-- begin endif -->
+<!-- end -->
+<!-- begin if -->
+<!-- end -->
+<!-- begin elif -->
+<!-- end -->
+<!-- begin elif -->
+<!-- end -->
+<!-- begin elif -->
+<!-- end -->
+<li><a href="https://www.fit.vutbr.cz/study/">Study</a></li>
+<li><a href="https://www.fit.vutbr.cz/study/courses/">Courses</a></li>
+<!-- begin elif -->
+<!-- end -->
+<!-- begin elif -->
+<!-- end -->
+<!-- begin elif -->
+<!-- end -->
+<!-- begin if -->
+<!-- end -->
+<!-- begin endif -->
+<!-- end -->
+<!-- begin elif -->
+<!-- end -->
+<!-- begin elif -->
+<!-- end -->
+<!-- begin elif -->
+<!-- end -->
+<!-- begin elif -->
+<!-- end -->
+<!-- begin endif -->
+<!-- end -->
+</ul>
+</div>
+<div class="right"></div>
+</div>
+
+<!--/noindex-->
+<div id="main">
+<div class="content">
+<table id="contenttable"><tbody><tr><td>
+<!-- end -->
+ 
+<h1>IUS - Zadání domácí úlohy IUS - ER diagram</h1>
+
+<hr>
+
+<h2>Základní informace</h2>
+
+<ul>
+  <li>
+Domácí úlohu řeší studenti <span style="color:blue">samostatně</span>, přičemž jedno zadání (která jsou uvedena
+níže) může řešit nezávisle na sobě více studentů.
+  </li>
+  <li>
+Na jednotlivé varianty se studenti přihlašují prostřednictvím 
+<a href="https://moodle.vut.cz/">e-learning VUT</a>. <br>
+    <!--<span style="color:red">(Zahájení přihlašování: 16.10. ve 20:02, ukončení
+    přihlašování: 29.10. ve 23:59.)</span>-->
+  </li>
+  <li>
+Další informace ke způsobu řešení budou předneseny na přednáškách a
+cvičeních.
+  </li>
+</ul>
+
+
+<h2>Odevzdaná domácí úloha bude obsahovat ER diagram (Entity
+	Relationship Diagram)</h2>
+
+Pomocí ER diagramu se modelují perzistentní data a vztahy mezi nimi. Jedná se o vyšší úroveň dat (abstrakci), 
+která jsou v systému uložena a mohou být dále zpracovávána.
+<br>
+<br>
+Perzistentní data v informačním systému zůstávají, i po vypnutí systému. ER diagram je základem pro návrh schématu 
+databáze (hlaviček jednotlivých tabulek). Tvoření databázového systému
+si prakticky vyzkoušíte v předmětu IDS (studenti FIT) nebo DFM
+(studenti FP).
+<br>
+<br>
+Při vypracovávání ER diagramu si dejte pozor, abyste opravdu modelovali data v klidu (při
+nepochopení ER diagramu, tj. modelování dynamické práce s daty, se může rapidně zhoršit
+hodnocení).  Modelování dynamiky se typicky projeví při pojmenovávání vztahů mezi
+entitními množinami jako "edituje", "prohlíží si",
+ "zadává" atd. 
+<br>Opakujeme: jde o data, která zůstávají v systému i po jeho vypnutí.
+Atributy entitních množin by měly být atomické (již nedělitelné).
+Pakliže máte atribut, jenž by měl složitý datový typ, rozmyslete se, zda by nebylo lepší modelovat ho jako entitní množinu.
+<br>
+<br>
+Vztahy jsou v ER diagramu vyjádřeny čarami mezi entitními množinami, cízí klíče (primární
+klíče jiných entitních množin) se tudíž mezi atributy dáné entitní množiny nenachází.
+Tyto se vyskytují až v databázových tabulkách při implementaci v rámci databázového
+systému.
+Při návrhu ER diagramu je nutné správně porozumět konceptu kardinality vztahů.
+Při použití vztahu 1:1..N (oproti vztahu 1:0..N) je třeba mít dobrý důvod pro to, aby
+musela existovat minimálně jedna entita z entitní množiny na pravé straně, která je ve
+vztahu s entitou na levé straně.  Vztahy 1:1 jsou podezřelé, protože takové entity množiny
+je možné sloučit do jedné--ve většině případů se jedná o chybu.
+Vztah n:n je sice při implementaci do tabulek problematický, ale v ER diagramech být může.
+Není ani chybou, pokud se již v ER diagramu převede přes vazební entitní množinu na dva
+vztahy 1:n (pozor ale na správnou orientaci kardinalit - kardinalita n je v obou případech
+na straně vazební entitní množiny).
+
+<br>
+
+<hr>
+
+<h2>Forma odevzdání</h2>
+
+<ul>
+<li>Student vypracovaný domácí úkol odevzdá v elektronické podobě (pdf
+	soubor) prostřednictvím E-learning systému VUT: <a href="https://moodle.vutbr.cz/">https://moodle.vutbr.cz</a>.
+</li><li>Úlohu můžete vytvořit pomocí vhodného počítačového programu, nebo
+	rukou na papír a ten následovně nascanovat/vyfotit. Pokud budete psát
+	rukou, prosím pište čitelně a zkontrolujte, že výsledný scan je
+	na počítači čitelný a nerozmazaný.
+</li><li> Odevzdání probíhá ve dvou krocích. V prvním kroku uložíte do
+	systému návrh řešení. Tento návrh můžete kolikrát chcete zaměnit
+	za nové řešení. V druhém kroku můžete stisknout  tlačítko
+	potvrdit odevzdání. Pak již nebudete moci změnit vaše odevzdané
+	řešení. Všechna řešení ve stavu návrh budou po termínu odevzdání
+	považována za odevzdaná.
+
+<!--<LI> Pokud bude projekt hodnocen formou obhajoby (bude upřesněno), tak student odevzdá vytištěnou podobu projektu při vlastní obhajobě. </li>
+<li>Tištěná podoba bude formátu A4, jednotlivé listy budou neoddělitelně spojeny kancelářskou
+sešívačkou v levém horním rohu.</li>-->
+</li></ul>
+
+<hr>
+
+
+
+<h2>Bodové hodnocení pro rok 2023</h2>
+
+Maximální počet bodů je 12.
+<br><br>
+Typické chyby, za které jsou strhávány body: 
+nepojmenované vztahy, chybějící nebo nesmyslné entitní množiny, "systém"
+jako entitní množina, chybějící vztah, špatné kardinality a další.
+
+<hr>
+<a name="rozdeleni"></a>
+<h2>Jednotlivá zadání</h2>
+
+Každé zadání má svého konzultanta (cvičícího) <b>který bude projekt hodnotit</b>.
+Zadání jsou velmi konkrétní a pokud možno jednoznačná.
+Podobná zadání budou také součástí zkoušky, kde konzultace nebudou možné.
+<br><br>
+<b>Poznámky:</b> Neuvažujte různá rozšíření a vylepšení. Nezapomeňte
+uvádět primární klíče, atributy entitních množin vyplývající
+přímo ze specifikace, názvy vztahů, kardinalitu a členství.
+
+
+<h3> 1: Balíky</h3>
+<b>Konzultant:</b> doc. Janoušek<br>
+Společnost Fofr balík plánuje expanzi na českém trhu doručovacích služeb, se kterou je
+spojena nutnost vytvoření nového informačního systému FOBIS. Byli jste požádáni o
+vytvoření ER diagramu pro FOBIS určeného pro sledování přepravovaných zásilek.  <br>
+Každá zásilka v rámci FOBIS je identifikována číslem zásilky. Dále je o zásilce vedena
+její cena, priorita, stav (v přepravě, doručeno, vráceno, ztraceno), odesílatel, adresát,
+typ doručení (na obchodní místo, přímo adresátovi) a eventuálně obchodní místo pro výdej.
+Odesílatel a adresát (dále jen klient) je jednoznačně určen klientským číslem. U každého
+klienta je vedeno jméno, ulice, číslo domu, PSČ a telefon.  U každé zásilky si vedeme
+historii polohy jako sérii záznamů o pozici balíku, času
+příchodu na danou pozici, času opuštění dané pozice, zaměstnance, který přijal zásilku na
+danou pozici a zaměstnance, který předal zásilku z dané pozice dále. Pozicí rozumíme
+obchodní místo, nebo doručovací auto.  <br>
+Obchodní místo je jednoznačně určeno číslem pobočky. Dále je pak veden typ obchodního
+místa (příjem, výdej, mezisklad), název a adresa. U kurýrních aut si vedeme informaci o
+registrační značce, stavu (v provozu, mimo provoz, vyřazeno), typu aktuální akce (rozvoz k
+adresátům, převoz zásilek mezi obchodními místy) a cílové obchodní místo (při jízdě mezi
+obchodními místy). U zaměstnanců si pamatujeme osobní číslo, jméno, telefon a typ
+zaměstnance (kurýr, zaměstnanec obchodního místa).  <br>
+Odesílatel i adresát mají možnost sledovat stav doručení zásilky prostřednictvím FOBIS.
+Systém dále automaticky rozesílá SMS odesílatelům i adresátům o stavu doručení zásilky.
+
+
+<h3>2: Dopravní podnik</h3>
+<b>Konzultant:</b> ing. Rozsíval<br>
+Dopravní podnik Brno plánuje modernizaci řídícího systému, který umožní dispečerům
+zobrazovat aktuální stav provozu a cestujícím zobrazit nejbližší spoje prostřednictvím
+panelů na zastávkách a mobilní aplikace. Vy jste byli požádáni o vytvoření ER diagramu
+jako základu tohoto systému.<br>
+V rámci systému máme řadu zastávek, každá identifikována číslem a dále má jméno a GPS
+pozici. V systému jsou vedeny linky, kde každá je identifikována svým číslem a seznamem
+zastávek číslovaným postupně od výchozí do konečné zastávky. <br>
+Každá linka obsahuje spoje.
+Spoj je identifikován číslem linky a číslem spoje a pro každý spoj si pamatujeme omezení
+jízdy (pouze pracovní den, sobota, neděle). Každý spoj má svůj jízdní řád určený
+zastávkami, kde ke každé zastávce si pamatujeme její pořadí v rámci spoje (číslováno od
+1), čas příjezdu a odjezdu a nástupiště na zastávce.<br>
+Linka je obsluhována několika vozy. Každý vůz obslouží za den několik spojů. Nasazení vozu
+na lince je jednoznačně určeno kmenovou linkou a pořadovým číslem na této lince. Dále si
+pro každé nasazení vozu pamatujeme čas výjezdu z vozovny, čas příjezdu do vozovny a stav
+(v provozu, ve vozovně, přestávka, porucha).  <br> 
+Systém vede historii pozic nasazených vozů,
+kde každá pozice je jednoznačně určena linkou a pořadím nasazeného vozu, datem a časem. Ke
+každé pozici si dále evidujeme zastávku a spoj. <br>
+Systém bude dále umožňovat připojení různých dalších aplikací pro 
+zobrazování aktuálních informací prostřednictvím jednoznačně 
+definovaného rozhraní.
+
+
+<h3>3: Vakcinace</h3>
+<b>Konzultant:</b>  ing. Veigend<br>
+V rámci plánované vakcinace proti COVID'19 plánuje ministerstvo zdravotnictví spuštění
+informačního systému pro registraci na očkování a evidenci podaných dávek. Vy jste byli
+požádáni o vytvoření ER diagramu jako základu tohoto IS.<br>
+V rámci systému evidujeme očkovací centra jednoznačně identifikovaná číslem centra. O
+každém centru dále evidujeme jeho název, množství dávek na skladě, adresu a zdravotnický
+personál aktuálně pracující v daném očkovacím centru. Každý zdravotník evidovaný v systému
+je jednoznačně identifikován osobním číslem a dále je vedeno jeho jméno a typ pracovníka
+(lékař centra, sestra, praktický lékař, lékař specialista). U praktického lékaře a
+specialisty si dále vedeme název a adresu ordinace. Vakcíny jsou centru dodávány po
+šaržích, kde každá šarže je identifikována svým číslem a dále vedeme výrobce, název
+vakcíny, datum, čas dodání a množství dávek v šarži. Jedna šarže není nikdy rozdělena mezi
+více center. Každý pacient je jednoznačně určen číslem pojištění a dále je vedeno jméno,
+datum narození, telefon, email, datum registrace, praktický lékař a až 3 preferovaná
+očkovací centra. Očkování pacienta musí doporučit lékař a v systému vedeme datum
+doporučení a lékaře který doporučení vydal (obvykle praktický lékař, nebo specialista).
+Každé očkovací centrum vypisuje očkovací časy. Ke každému pacientovi jsou vedeny až 2
+očkovací časy pro první a druhou dávku. Očkovací čas je jednoznačně určen centrem, datem a
+časem. Dále pak vedeme informaci o stavu (volný, přihlášený, využitý, nevyužitý) a pokud
+byl čas využitý, tak evidujeme šarži použité vakcíny.<br>
+Všechny adresy v systému jsou jednoznačně identifikovány pomocí psč a 
+čísla popisného, dále pak vedeme ulici, část obce a obec. Systém umožní 
+posílat zprávy pacientům ohledně volných termínů a rezervací.
+
+
+<h3>4: Fake news</h3>
+<b>Konzultant:</b> ing. Dacík<br>
+Kancelář pro uvádění románových příběhů na pravou míru (DOOM) se rozhodla rozšířit svoji
+působnost do on-line prostoru, a požádala Vás proto o návrh ER diagramu, který by byl
+základem informačního systému pro vyhodnocování tzv. fake news (IS CANE). Sada botů bude
+procházet internet a nalezené zprávy bude ukládat do IS CANE. Jednotlivé zprávy budou
+identifikovány svým URL a dále bude zaznamenáno datum a čas jejich zveřejnění a osoba,
+která zprávu zveřejnila (pokud ji lze zjistit). Aby bylo možné pracovat i se zprávami,
+které jsou později smazány, systém si celou zprávu uloží (v IS CANE bude uvedeno datum a
+čas uložení zprávy a cesta k její kopii).<br>
+Nalezené zprávy budou postupně vyhodnocovány týmem DOOM. Protože se ale prakticky stejná
+zpráva obvykle vyskytuje na mnoha místech, vyhodnocení bude probíhat najednou pro celou
+skupinu těchto zpráv. Vybraný člen vypracuje na zprávu (přesněji na skupinu zpráv)
+posudek, ve kterém navrhne hodnocení (pravdivá, nepravdivá, zavádějící, neověřitelná) a
+důkladně ho odůvodní, a to včetně uvedení použitých zdrojů (konkrétních zpráv) a
+případného upřesnění, jak byla která zpráva pro posudek využita. Na základě posudku
+vedoucí DOOM přidělí zprávě hodnocení nebo, pokud není s některým posudkem spokojen, může
+pověřit dalšího člena vypracováním nového posudku. Všechny posudky budou v IS CANE
+evidovány (je třeba znát pořadí posudku pro danou skupinu zpráv, datum a čas vypracování a
+autora). Pro snadnější orientaci veřejnosti v hodnocených zprávách přidělí vedoucí DOOM
+skupině zpráv výstižný (unikátní) název, vybere nejčastější znění zprávy, zaeviduje datum
+a čas jejího prvního výskytu a shrne odůvodnění hodnocení. Zprávy také zařadí do oblastí
+(oblast je charakterizována svým názvem a popisem), přičemž návrh na zařazení do
+jednotlivých oblastí (jedna zpráva může spadat i do více oblastí) bude již součástí
+posudků. <br>
+Osobám, ať už publikují na internetu nebo píší posudky, IS CANE vygeneruje osobní číslo a
+dále bude uchovávat (když budou tyto údaje známy) jejich pseudonym, jméno a příjmení,
+e-mail, telefon, případně facebookový a twitterový účet.
+
+
+
+<h3>5: Psycholog</h3>
+<b>Konzultant:</b> ing. Pavela<br>
+	Vytvořte ER diagram, který by byl základem informačního systému ordinace
+	klinického psychologa (IS OOPS). O svých klientech si klinický psycholog potřebuje
+	uchovávat následující informace: rodné číslo (pro jednoduchost předpokládejte, že
+	je jedinečné a že zahrnuje informaci o datu narození i o pohlaví), jméno,
+	příjmení, e-mail, telefon, adresu, u které pojišťovny je pojištěn (historie není
+	třeba, stačí aktuální stav) a číslo pojištěnce, jaké má nebo měl nemoci a jejich
+	trvání (pokud se nemoc vracívá, stačí datum prvního výskytu případně datum
+	posledního ústupu), absolvované nebo plánované návštěvy a samozřejmě platby za
+	tyto návštěvy.<br>
+	V IS OOPS budou jednotlivé návštěvy pro každého klienta očíslovány, přičemž je
+	třeba znát datum a čas začátku návštěvy, její délku, typ výkonu (krizová
+	intervence, psychologické vyšetření, psychoterapie), popis, pokud je to
+	relevantní, kvůli které nemoci či nemocem se uskutečnila, cenu a zda je hrazena z
+	veřejného zdravotního pojištění. (Před návštěvou jsou tyto údaje plánem, při
+	vlastní návštěvě jsou pak upraveny podle skutečnosti). Nemoci budou v IS OOPS
+	evidovány v souladu mezinárodní klasifikací nemocí (nemoc má svůj kód a název,
+	přičemž nemoci jsou členěny hierarchicky - jedna nemoc může zahrnovat několik
+	specifičtějších nemocí) a budou doplněny o informaci, zda daná nemoc spadá do
+	odbornosti klinického psychologa.<br>
+	Pokud návštěvu nehradí zdravotní pojišťovna (každá pojišťovna má svůj kód,
+	zkratku, název a sídlo a v IS OOPS bude navíc i příznak, zda má s ordinací
+	uzavřenu smlouvu o poskytování zdravotní péče), musí si návštěvu zaplatit sám
+	klient. IS OOPS každý měsíc zašle smluvním pojišťovnám seznam provedených výkonů k
+	proplacení. Pro snadnou kontrolu, zda byly všechny návštěvy uhrazeny, budou z
+	bankovního systému do IS OOPS importovány přijaté platby (jsou identifikovány tzv.
+	referencí a dále obsahují datum zaúčtování, částku, číslo a název protiúčtu,
+	variabilní symbol a zprávu pro příjemce). Hotovostní platby pro jednoduchost
+	neuvažujte.
+
+
+<h3>6: Loupežníci</h3>
+<b>Konzultant:</b> ing. Goldmann<br>
+Byli jste zajati loupežnickou bandou a její vůdce Vás propustí jenom tehdy, když navrhnete
+ER diagram, který poslouží jako základ informačního systému pro správu loupežnické bandy
+(IS ROB). <br>
+Každý loupežník má v bandě svoji přezdívku, kterou si nesmí nikdo přivlastnit ani po jeho
+smrti, a podle schopností a zásluh získává hodnost. V IS ROB bude dále uvedeno jeho pravé
+jméno, odkud pochází, datum narození a případně datum smrti. Zdrojem obživy bandy je
+zejména přepadání pocestných a usedlostí. Všechna přepadení proto musí být v IS ROB
+pečlivě zaznamenána. Kromě data, času začátku a délky přepadení (v rámci jednoho dne je
+banda schopna uskutečnit i několik přepadení, ale nikdy se nebudou překrývat) je třeba
+znát i místo přepadení, kdo byl přepaden, soupis lupu, popis přepadení, kteří loupežníci
+se ho zúčastnili a jakou odměnu za to dostali, kteří byli raněni a jak, případně kteří
+loupežníci byli zabiti. Po přepadení jsou uloupené položky očíslovány a do IS ROB je zadán
+jejich typ (peníze, šperky, jídlo, oblečení, zbraně, živá zvířata, ostatní), popis a odhad
+hodnoty. Pokud je později položka prodána, přidá se ještě datum prodeje, prodejní cena a
+který loupežník položku prodal.<br> 
+Peníze z prodeje vůdce bandy používá na odměny loupežníkům. Každé odměně je přiřazeno
+unikátní číslo jednací a v IS ROB je dále uvedena její výše, datum vyplacení, typ
+(pravidelný měsíční žold, podíl na zisku z přepadení, za zranění či za zatčení)
+a zdůvodnění. Pokud je odměna či její část uhrazena uloupenými věcmi, je třeba vědět,
+kterými. Zatčení se pochopitelně snaží loupežníci vyhýbat, ale pokud k němu dojde, je
+třeba ho do IS ROB zaznamenat (datum, čas, místo a popis zatčení, o kolikáté zatčení
+daného loupežníka se jednalo, jaký byl loupežníkovi udělen trest a, pokud si zatčení svojí
+hloupostí  nepřivodil sám a současně zatčení a následný trest přežil, i odměnu).
+
+
+<h3>7: Hasiči</h3>
+<b>Konzultant:</b> doc. Janoušek<br>
+Vytvořte co nejjednodušší ER diagram informačního systému (IS) pro Hasičský záchranný sbor
+(HZS). Pro potřeby IS předpokládejte, že HZS je organizačně členěn na požární stanice
+(PS); každá PS má svůj jednoznačný kód, dále název, adresu sídla a definovanou oblast, pro
+kterou je PS primárně určena. Zaměstnanci HSZ jsou vždy přidělení k jedné PS; jejich
+umístění se může v čase měnit a na stejnou PS mohou být umístěni opakovaně. Zaměstnanec má
+své osobní číslo (v rámci IS unikátní), dále je nutné znát jeho jméno, příjmení a funkci.
+Funkce se může měnit, HZS potřebuje znát i minulé funkce zaměstnance a kdy je zastával. IS
+poskytuje přehledy o PS a zaměstnancích (základní data, na které PS a kdy byl umístěn,
+jakou funkci a v kterém období zastával).<br>
+Každá PS má své hasičské vozy, které jsou evidovány. Každý vůz má své jedinečné číslo,
+dále se uchovává informace o číslu karoserie VIN, registrační značka RZ a typ vozu.
+Předpokládejte, že umístění vozu se nemění. IS dále eviduje výjezdy HSZ. Na výjezdu se
+může podílet více vozů různých PS současně. Každý výjezd má vždy svého velitele, je nutné
+znát kde k události došlo, kdy byla akce zahájena a kdy ukončena. Je nutné vědět, které
+vozy se výjezdu účastnily, kdy vyjely (vůz mohl být vyslán později jako posila), kdy
+dorazily na místo a kdy se vrátily zpět na PS. Každému vozu je při výjezdu určen velitel
+vozu a členové osádky.<br>
+IS také poskytuje přehledy o vozech (základí data, ke které stanici patří, na kterém
+výjezdu a s jakou osádkou bylo použito) a výjezdech (základní data, kdo byl velitel, jaké
+vozy se účastnily, s jakou osádkou a kdo byl velitelem vozu).
+
+
+<h3>8: Online supermarket</h3>
+<b>Konzultant:</b>Aparovich<br>
+Společnost Baguette plánuje v České republice spustit online nákupy (převážně potravin) s
+dovozem domů. Vás požádala o vytvoření ER diagramu, který bude základem jejich
+informačního systému pro objednávání a distribuci zásilek. <br>
+V rámci sortimentu je nabízena řada produktů, kde u každého je uveden kód zboží, název,
+popis, jednotka (kus, kg, ...), obvyklá cena za jednotku, aktuální cena za jednotku a
+velikost nedělitelné části (např. 1 jednotka, 0.01 jednotek, ...). Společnost bude
+provozovat v rámci ČR několik rozvozových dep, o každém z nich si v systému vedeme jeho
+číslo, název a adresu. V systému je nutné vést přehled aktuálního množství zboží na skladě
+konkrétního depa.<br>
+Zákazník při vstupu do systému zadá adresu pro doručení, a tím dojde k vytvoření košíku,
+který je automaticky přiřazen k depu zajišťujícímu rozvoz na danou adresu. Zákazník tak
+může do košíku přidávat pouze produkty dostupné na skladě příslušného depa. Košík je
+identifikován číslem, a jeho součástí je jméno a telefon zákazníka (který si převezme
+nákup), adresa doručení, e-mail, stav objednávky (neobjednáno, objednáno, dodáno,
+stornováno) a stav platby (zaplaceno, nezaplaceno). Adresa je identifikována PSČ a
+poznávacím číslem, dále je vedena ulice a název obce.<br>
+Do košíku pak zákazník může vkládat různé zboží v různém množství. Cena se počítá dle
+aktuální ceny zboží v čase objednání. Z účetních důvodů je nutné uchovávat v systému cenu
+jednotlivých položek košíku v čase objednání (aktuální cena se totiž může měnit).<br>
+Po objednání je košík zařazen do doručovacího slotu. Každý doručovací slot může obsahovat
+až 10 košíku a je jednoznačně určen časem doručení (např. pátek 22.1. 15:00 --16:30) a
+kurýrem, který objednávku doručí. O každém kurýrovi si systém vede osobní číslo, jméno
+kurýra, telefon na kurýra a informaci, pro které depo pracuje.
+
+
+<h3>9: Nadílka</h3>
+<b>Konzultant:</b> doc. Rogalewicz<br>
+Mezinárodní asociace bytostí nadělujících dárky se rozhodla sledovat a vyhodnocovat
+výkonnost svých členů. Vás požádala o vytvoření ER diagramu, který by sloužil jako základ
+informačního systému pro monitorování nadělených dárků (IS MAD). Kromě jména nadělující
+bytosti, které můžete považovat za unikátní, bude v IS MAD evidován původ bytosti (bůh,
+člověk, zvíře, ostatní), ve kterých státech (v jednom státě může nadělovat dárky více
+bytostí, přičemž existují státy, které žádnou nadělující bytost nemají), jaký den v roce a
+jakým způsobem bytost dárky naděluje.<br> 
+Jednotlivým naděleným dárkům IS MAD přidělí jednoznačné číslo dárku a dále zaznamená
+název, druh a popis dárku, nadělující bytost (pokud se na nadílce žádná bytost nepodílela,
+pak osobu či osoby, od kterých dárek je), pro koho byl dárek určen (dárek může dostat i
+více osob), datum nadílky a kde byl dárek nadělen. Každá osoba při narození získává
+jedinečné osobní číslo, které je v IS MAD uchováváno společně s jejím jménem, příjmením,
+datem narození, pohlavím, státní příslušností (počítejte s možností vícenásobného
+občanství) a s adresami, na kterých pobývá. Adresu v rámci státu (každý stát má svoji
+unikátní zkratku, oficiální a hovorový název) určuje poštovní směrovací číslo (PSČ), číslo
+popisné a číslo bytu. Pro lepší orientaci jsou tyto údaje obvykle doplněny o název obce
+(nebo městské části či městského obvodu), ulici a číslo orientační.
+
+
+
+
+</td></tr></tbody></table></div></div></div></div></body></html>
