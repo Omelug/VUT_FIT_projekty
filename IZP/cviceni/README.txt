@@ -1,0 +1,1 @@
+Vetsinu cviceni jsem nějak ztratil, sorry
