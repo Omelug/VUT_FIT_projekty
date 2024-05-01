@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fsm>
+  <states>
+    <state>
+      <values>CNT8\_E=0, CNT16\_E=0, BIT\_VLD=0, D\_VLD=0</values>
+      <position x="0.0" y="0.0"/>
+      <number>0</number>
+      <name>START</name>
+      <radius>120</radius>
+      <isInitial>true</isInitial>
+      <initialAngle>11</initialAngle>
+      <defaultDC>false</defaultDC>
+    </state>
+    <state>
+      <values>CNT8\_E=0, CNT16\_E=1, BIT\_VLD=0, D\_VLD=0</values>
+      <position x="1020.0" y="-240.0"/>
+      <number>2</number>
+      <name>WAIT</name>
+      <radius>140</radius>
+      <isInitial>false</isInitial>
+      <initialAngle>12</initialAngle>
+      <defaultDC>false</defaultDC>
+    </state>
+    <state>
+      <values>CNT8\_E=0, CNT16\_E=1, BIT\_VLD=0, D\_VLD=0</values>
+      <position x="960.0" y="480.0"/>
+      <number>4</number>
+      <name>D\_STOP</name>
+      <radius>70</radius>
+      <isInitial>false</isInitial>
+      <initialAngle>12</initialAngle>
+      <defaultDC>false</defaultDC>
+    </state>
+    <state>
+      <values>CNT8\_E=0, CNT16\_E=0, BIT\_VLD=0, D\_VLD=1</values>
+      <position x="300.0" y="360.0"/>
+      <number>5</number>
+      <name>VALID</name>
+      <radius>70</radius>
+      <isInitial>false</isInitial>
+      <initialAngle>12</initialAngle>
+      <defaultDC>false</defaultDC>
+    </state>
+    <state>
+      <values>CNT8\_E=1, CNT16\_E=0, BIT\_VLD=0, D\_VLD=0</values>
+      <position x="480.0" y="-180.0"/>
+      <number>1</number>
+      <name>START\_W</name>
+      <radius>90</radius>
+      <isInitial>false</isInitial>
+      <initialAngle>12</initialAngle>
+      <defaultDC>false</defaultDC>
+    </state>
+    <state>
+      <values>CNT8\_E=1, CNT16\_E=0, BIT\_VLD=1, D\_VLD=0</values>
+      <position x="1380.0" y="180.0"/>
+      <number>3</number>
+      <name>DATA</name>
+      <radius>70</radius>
+      <isInitial>false</isInitial>
+      <initialAngle>12</initialAngle>
+      <defaultDC>false</defaultDC>
+    </state>
+  </states>
+  <transitions>
+    <transition>
+      <values></values>
+      <position x="606.64" y="548.48"/>
+      <fromState reference="../../../states/state[3]"/>
+      <toState reference="../../../states/state[4]"/>
+      <condition>CNT16\_BIT=1</condition>
+    </transition>
+    <transition>
+      <values></values>
+      <position x="100.03472" y="254.18045"/>
+      <fromState reference="../../../states/state[4]"/>
+      <toState reference="../../../states/state"/>
+      <condition></condition>
+    </transition>
+    <transition>
+      <values></values>
+      <position x="266.625" y="-61.720024"/>
+      <fromState reference="../../../states/state"/>
+      <toState reference="../../../states/state[5]"/>
+      <condition>DIN=0</condition>
+    </transition>
+    <transition>
+      <values></values>
+      <position x="719.1681" y="-261.1024"/>
+      <fromState reference="../../../states/state[5]"/>
+      <toState reference="../../../states/state[2]"/>
+      <condition>CNT8=111</condition>
+    </transition>
+    <transition>
+      <values></values>
+      <position x="1268.0684" y="-42.246582"/>
+      <fromState reference="../../../states/state[2]"/>
+      <toState reference="../../../states/state[6]"/>
+      <condition>CNT16\_BIT=1</condition>
+    </transition>
+    <transition>
+      <values></values>
+      <position x="1175.8365" y="36.809265"/>
+      <fromState reference="../../../states/state[6]"/>
+      <toState reference="../../../states/state[2]"/>
+      <condition></condition>
+    </transition>
+    <transition>
+      <values></values>
+      <position x="1198.305" y="369.62708"/>
+      <fromState reference="../../../states/state[6]"/>
+      <toState reference="../../../states/state[3]"/>
+      <condition>CNT8=111</condition>
+    </transition>
+  </transitions>
+</fsm>

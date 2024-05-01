@@ -1,15 +1,6 @@
-/IEL/lab/protokoly/protokol1/.idea/
-/*/.idea/
 /IUS/IUS_incident/
-/IOS/projekt1/dzives testy/
-/IOS/projekt1/hodnoceni/
-/IOS/projekt2/demo
-/IOS/projekt2/.idea/
-/IOS/projekt2/kontrola-vystupu.sh
-/IOS/projekt2/Makefile
-/IOS/projekt2/proj2.c
-/IOS/projekt2/test.c
-/IOS/projekt2/test_bus.sh
-/IZLO/izlo-projekt1/tests/
-/INC/
-/IOS/projekt2/
+/IUS/projekty/tymovyProjekt/
+/INC/test/scripts/
+/INC/test/test1/
+/INC/test/work/log/
+/INC/test/work/sim/
